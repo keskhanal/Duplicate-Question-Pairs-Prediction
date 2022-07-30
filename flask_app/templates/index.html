@@ -7,13 +7,18 @@
     <title>Duplicate questions predictions</title>
 </head>
 <body>
-    <h1>Welcome to duplicate questions predictions app.</h1>
-    <form action="">
-        <label for="First questions">First Questions:</label><br>
-        <input type="text" id="1stquestion" name="1stquestion" value=""><br>
-        <label for="2ndquestions">Second Questions:</label><br>
-        <input type="text" id="2ndquestions" name="2ndquestions" value=""><br><br>
-        <input type="submit" value="Submit">
-      </form> 
+    <h1 style="text-align: center;">Duplicate questions prediction app.</h1>
+    
+    <form name="form", method="POST", style="text-align: center;">
+        <br>
+        First Question: <br><input type="text" name="1stQuestion", placeholder="Enter first question " required/>
+        <br><br>
+        Second Question: <br><input type="text" name="2ndQuestion", placeholder="Enter second question" required/>
+        <br><br>
+        <button value="Submit">Check</button>
+    </form>
+
+    <h2 style="text-align: center;">{{ output }}</h2>
+    
 </body>
 </html>
