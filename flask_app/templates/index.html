@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duplicate questions predictions</title>
+    <title>
+        Duplicate questions predictions
+    </title>
 </head>
-<body>
-    <h1 style="text-align: center;">Duplicate questions prediction app.</h1>
-    
-    <form name="form", method="POST", style="text-align: center;">
-        <br>
-        First Question: <br><input type="text" name="1stQuestion", placeholder="Enter first question " required/>
-        <br><br>
-        Second Question: <br><input type="text" name="2ndQuestion", placeholder="Enter second question" required/>
-        <br><br>
-        <button value="Submit">Check</button>
-    </form>
+    <body>
+        <h1 style="text-align: center;">Duplicate Questions Prediction App</h1>
+        
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            First Question: <br><input type="text" name="1stQuestion", size="40", placeholder="Enter first question " required/>
+            <br><br>
+            Second Question: <br><input type="text" name="2ndQuestion", size="40", placeholder="Enter second question" required/>
+            <br><br>
+            <button value="Submit">Check</button>
+        </form>
 
-    <h2 style="text-align: center;">{{ output }}</h2>
-    
-</body>
+        <h2 style="text-align: center;">{{ output }}</h2>
+    </body>
 </html>
