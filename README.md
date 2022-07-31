@@ -32,4 +32,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## contact
-If you have any query then drop a [message here](me.keskhanal@gmail.com)
+If you have any query then drop a [message here](https://www.linkedin.com/in/keskhanal/)
