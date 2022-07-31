@@ -11,7 +11,7 @@ from .helper import query_point_creator
 # Load the model
 model = pickle.load(open('flask_app\models\model.pkl','rb'))
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET', 'POST'])
 def main():
     if request.method == "POST":
         
