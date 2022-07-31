@@ -7,13 +7,18 @@ Over 100 million people visit Quora every month, so it's no surprise that many p
 You can check the app by using this link [duplicate-question-pairs-check](https://duplicate-question-pairs-check.herokuapp.com/) which is hosted on heroku.
 
 This is the home page of the app
-![home page](screenshots\Screenshot1.png?raw=true "Title")
+![home page](screenshots\Screenshot1.png)
+<!-- ![home page](screenshots\Screenshot1.png?raw=true "Title") -->
 
 Duplicate Questions
-![result for duplicate questions](screenshots\Screenshot2.png?raw=true "duplicate")
+![result for duplicate questions](screenshots\Screenshot2.png)
+
+<!-- ![result for duplicate questions](screenshots\Screenshot2.png?raw=true "duplicate") -->
 
 Non-Duplicate Questions
-![result for non-duplicate questions](screenshots\Screenshot3.png?raw=true "non-duplicate")
+![result for non-duplicate questions](screenshots\Screenshot3.png)
+
+<!-- ![result for non-duplicate questions](screenshots\Screenshot3.png?raw=true "non-duplicate") -->
 
 
 If you wanna run on your local machine then follow the following steps:-
